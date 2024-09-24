@@ -13,9 +13,9 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  background-color: 11f011;
-  width: 80%;
-  min-height: 350px;
+
+  width: fit-content;
+  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -24,21 +24,13 @@ export const Content = styled.div`
 `;
 
 export const Keyboard = styled.div`
-  background-color: 11f011;
-  width: 400px;
-  height: 500px;
-  // width: 80%;
-  // min-height: 350px;
+
+  margin: 1rem 0;
+  width: fit-content;
+  height: fit-content;
 
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
   grid-template-columns: repeat(4, 1fr);
   gap: 0px;
-  // align-items: center;
-  // justify-items: center;
-
-  // display: flex;
-  // flex-direction: row;
-  // align-items: flex-start;
-  // justify-content: center;
 `
