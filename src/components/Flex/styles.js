@@ -11,10 +11,6 @@ export const FlexContainer = styled.div`
 
     display: flex;
     flex-direction: ${(props) => props.column ? "column" : "row"};
-    flex-wrap: no-wrap;
-    
-    // grid-column: ${(props) => props.column ? "4 / span 1" : "1 / span 2"};
-    // grid-row: ${(props) => props.column ? "1 / span 5" : "5 / span 1"};
     
     grid-column: ${(props) => props.column ? "4 / span 1" : "1 / span 2"};
     grid-row: ${(props) => props.column ? "1 / span 5" : "1 / span 1"};

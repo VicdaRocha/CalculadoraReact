@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100vh;
   margin: 0px;
   padding: 0px;
-  background-color: #aafeaa;
+  background-color: rgb(170, 254, 170);
 
   display: flex;
   align-items: center;

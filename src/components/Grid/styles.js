@@ -15,9 +15,6 @@ export const GridContainer = styled.div`
     align-items: center;
     justify-items: center;
 
-    // grid-column: 1 / span 3;
-    // grid-row: 1 / span 4;
-
     grid-column: 1 / span 3;
     grid-row: 2 / span 4;
 `
