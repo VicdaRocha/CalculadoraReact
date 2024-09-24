@@ -1,6 +1,11 @@
 import { ButtonContainer } from "./styles";
 
-const Button = ({ tecla, onClick, positionX, positionY }) => {
+const Button = ({ 
+  tecla, 
+  onClick, 
+  positionX, 
+  positionY 
+}) => {
 
   console.log(onClick);
 
