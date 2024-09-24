@@ -22,3 +22,23 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
 `;
+
+export const Keyboard = styled.div`
+  background-color: 11f011;
+  width: 400px;
+  height: 500px;
+  // width: 80%;
+  // min-height: 350px;
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+  // align-items: center;
+  // justify-items: center;
+
+  // display: flex;
+  // flex-direction: row;
+  // align-items: flex-start;
+  // justify-content: center;
+`

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InputContainer = styled.div`
-  width: 100%;
+  width: 400px;
   height: 75px;
   background-color: #9ff99f;
 
@@ -15,9 +15,10 @@ export const InputContainer = styled.div`
     width: 100%;
     height: 75px;
     padding: 0 10px;
-    background-color: #cccccc;
+    background-color: #9ff99f;
+    color: rgb(70,70,70);
     border: 4px;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: right;
     font-size: 50px;
   }
